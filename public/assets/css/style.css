@@ -1,0 +1,128 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  background: url("https://static.vecteezy.com/ti/photos-gratuite/p2/8197446-fond-de-texture-bois-clair-photo.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+header .hero img {
+  width: 150px;
+  height: auto;
+}
+
+header .scroll-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 24px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+section .text,
+section .image {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section .text h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+section .text p {
+  margin-bottom: 10px;
+}
+
+section .image img {
+  width: 100%;
+  height: auto;
+}
+
+.story .image {
+  order: 2;
+}
+
+.story .text {
+  order: 1;
+}
+
+.fresh-fare .image {
+  order: 1;
+}
+
+.fresh-fare .text {
+  order: 2;
+}
+
+.local-distillation .image {
+  order: 2;
+}
+
+.local-distillation .text {
+  order: 1;
+}
+
+.footer-image img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #f3f3f3;
+}
+
+footer .footer-text p {
+  margin: 5px 0;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+}
+
+footer .social-media img {
+  width: 40px;
+  height: auto;
+}
